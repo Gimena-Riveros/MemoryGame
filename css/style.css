@@ -1,5 +1,58 @@
-* {
-    margin: 0;
-    padding: 0;
+body {
     background: palevioletred;
+
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    font-family: sans-serif;
+    color: white;
+}
+
+main {
+    width: 730px;
+    margin: 6.25rem auto 3.125rem;
+    display: flex;
+    align-items: center;
+}
+.section-cards {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0 0.625rem 0.625rem 0.625rem;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+button {
+    height: 6.25rem;
+    width: 6.25rem;
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bold;
+}
+button:hover {
+    cursor: pointer;
+}
+
+.section-statistics {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 400px;
+    width: 250px;
+    padding: 0 20px;
+}
+
+.statistics {
+    border: 0.063rem solid white;
+    height: 105px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
 }
